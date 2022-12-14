@@ -1,6 +1,4 @@
 import java.util.Arrays;
-import java.util.List;
-
 public class City {
     private final String cityName;
     private final String area;
@@ -14,13 +12,16 @@ public class City {
     public String getCityName(){
         return this.cityName;
     }
-    public String getArea(String area){
+    public String getArea(){
         return area;
     }
-    public String[] getListOfStreets(){
-        return listOfStreets;
+    public String getListOfStreets(){
+        return Arrays.toString(listOfStreets);
     }
     public String toString(){
-        return "city name : " + cityName + "\n area : " + area +"\n  list of streets :" + Arrays.toString(listOfStreets) ;
+        return "City name : " + cityName + "\nArea : " + area +"\n List of streets :" + getListOfStreets() ;
     }
 }
+// I think this file is completed
+
+

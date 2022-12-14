@@ -2,9 +2,11 @@ public class RealEstate {
   private User[] users;
     private Property[] properties;
     private City[] cities;
+    private int postCount ;
   private void createUser(){
       //DO WHILE
       //IF FOR RealEstate.
+
   }
     User login(){
       // to user :int counter=0;
@@ -32,10 +34,10 @@ public class RealEstate {
     }
     /*public void createUser(users){
       System.out.println("enter your user name");
-      while(userName==exsitedUserName){          // צריך ליצור מעין מערך שמאחסן את כל המשתמשים
-        System.out.println("the user name you chose already exists, please choose again");
+      while(userName==existedUserName){          // צריך ליצור מעין מערך שמאחסן את כל המשתמשים
+        System.out.println("the username you chose already exists, please choose again");
         userName=user.nextString;
-        if(userName!=exsitedUserName){
+        if(userName!=existedUserName){
           System.out.println("please choose your password");
           passWord=user.nextString;
           char[] CheckPassWord= new char[];
@@ -44,3 +46,4 @@ public class RealEstate {
       }
     }*/
 }
+// did not even start

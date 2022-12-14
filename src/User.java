@@ -1,25 +1,27 @@
 public class User {
-    private String userName;
-    private String password;
-    private String phoneNumber;
-    private boolean isBrokers;
-
-    public User(String username, String password,  String phoneNumber,boolean isBrokers ){
-        this.userName = username;
+   final private String userName;
+   final private String password;
+   final private String phoneNumber;
+  final  private boolean isBrokers;
+    public User(String userName, String password,  String phoneNumber,boolean isBrokers ){
+        this.userName = userName;
         this.password = password;
         this.phoneNumber = phoneNumber;
         this.isBrokers = isBrokers;
             }
-
-    void getUserName(String username) {
-        this.userName = username;
+private String getPassword(){
+        return password;
+}
+public String getUserName(){
+        return userName;
     }
-
-    void getPassword() {
-        this.password = password;
-
+    public String getIsBroker(){
+        if (isBrokers){
+            return "real estate agent";
+        }else return "not an agent";
     }
-    void getPhoneNumber(){
-        this.phoneNumber = phoneNumber;
+    public String getPhoneNumber() {
+        return phoneNumber;
     }
 }
+//need minor adjustment
