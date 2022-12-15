@@ -41,9 +41,4 @@ public class RealEstate {
           System.out.println("please choose your password");
           passWord=user.nextString;
           char[] CheckPassWord= new char[];
-
-        }
-      }
-    }*/
-}
-// did not even start
+*/

@@ -2,6 +2,7 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
+
         String[] arrayOfCity = {"Ashdod" , " Tel-Aviv", "Eilat" ,"Ashkelon","Jerusalem","Rehovot","Haifa" ,"Bat-Yam" , "Baer-Sheva","Sderot"};
         String[] arrayOfStreets = {"Rimon street" , "Narkis street", "Rotem street" ,"Golani street","Givati street","Oliy Agardom street","Dov Brayer street" ,"Kalanit street" , "Tamar street","Africa street"};
         String[] arrayOfArea = {"south", "midland", "north" ,"sharon" ,"negev" };
@@ -16,7 +17,7 @@ public class Main {
         a.setPrice(1000000);
         a.setType(1);
         System.out.println(a);
-
+        RealEstate real = new RealEstate( user1 ,  ashdod);
 
 
     }/*
